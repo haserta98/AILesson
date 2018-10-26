@@ -284,8 +284,7 @@ namespace SearchAlgorithm
             return Math.Sqrt(Math.Pow((endpos.X - pos.X), 2) + Math.Sqrt(Math.Pow((endpos.Y - pos.Y), 2)));
             //return Math.Abs(endpos.X - pos.X) + Math.Abs(endpos.Y - pos.Y);
         }
-
-        private double CalculateFromStart()
+       private double CalculateFromStart()
         {
             //başlangıçtan şuanki konuma uzaklığı
             return Math.Sqrt(Math.Pow((current.X - startpos.X), 2) + Math.Sqrt(Math.Pow((current.Y - startpos.Y), 2)));
@@ -332,7 +331,6 @@ namespace SearchAlgorithm
         {
             ChangeBlock(Convert.ToInt16(textBox1.Text), Convert.ToInt16(textBox2.Text));
         }
-
 
     }
 }
